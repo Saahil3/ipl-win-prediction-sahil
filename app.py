@@ -86,14 +86,12 @@ elif wickets==10 and score == target-1:
     st.write('Match tied')
     
 elif battingteam==bowlingteam:
-    st.write('To proceed, please select different teams because no match can be 
-              played between the same teams')
+    st.write('To proceed, please select different teams because no match can be played between the same teams')
 
 else:
 
     # Checking if the input values are valid or not
-    if target >= 0 and target <= 300  and overs >= 0 and overs <=20 
-    and wickets <= 10 and wickets>=0 and score>= 0:
+    if target >= 0 and target <= 300  and overs >= 0 and overs <=20 and wickets <= 10 and wickets>=0 and score>= 0:
 
         
         try:
