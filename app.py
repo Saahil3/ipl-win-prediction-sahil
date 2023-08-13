@@ -1,8 +1,7 @@
-import streamlit as st
-import pandas as pd
 import pickle
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
+
+import pandas as pd
+import streamlit as st
 
 # Declaring the teams
 
