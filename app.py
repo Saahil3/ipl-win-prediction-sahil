@@ -78,12 +78,12 @@ else:
 
                 runs_left = target-score
                 balls_left = 120-(overs*6)
-                wickets = 10-wickets
+                wickets_left = 10-wickets
                 currentrunrate = score/overs
                 requiredrunrate = (runs_left*6)/balls_left
 
                 input_df = pd.DataFrame({'batting_team': [battingteam], 'bowling_team': [bowlingteam], 'city': [city], 'runs_left': [runs_left], 'balls_left': [
-                                        balls_left], 'wickets': [wickets], 'total_runs_x': [target], 'cur_run_rate': [currentrunrate], 'req_run_rate': [requiredrunrate]})
+                                        balls_left], 'wickets_left': [wickets], 'total_runs_x': [target], 'cur_run_rate': [currentrunrate], 'req_run_rate': [requiredrunrate]})
 
                 # st.table(input_df)
             #     cols_to_transform = ['batting_team','bowling_team','city']
